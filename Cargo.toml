@@ -7,9 +7,11 @@ members = [
 [workspace.package]
 version = "0.1.0"
 description = "立志做最可爱的 RoboMaster 开源框架!"
-documentation = "https://github.com/cygnomatic/nanako"
+authors = ["LiuliFox <liulifox@qq.com>"]
+documentation = "https://project-nanako.github.io/Nanako-docs/"
 license = "MIT"
-repository = "https://github.com/cygnomatic/nanako"
+license-file = "LICENSE"
+repository = "https://github.com/project-nanako/nanako"
 
 [workspace.dependencies]
 dora-rs = "0.1.0"
