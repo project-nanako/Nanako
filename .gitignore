@@ -1,0 +1,4 @@
+/target
+/out
+.venv
+.DS_Store

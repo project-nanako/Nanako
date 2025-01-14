@@ -1,0 +1,21 @@
+[workspace]
+members = [
+    "node-hub/dora-rerun",
+    "node-hub/hik-camera"
+]
+
+[workspace.package]
+version = "0.1.0"
+description = "立志做最可爱的 RoboMaster 开源框架!"
+documentation = "https://github.com/cygnomatic/nanako"
+license = "MIT"
+repository = "https://github.com/cygnomatic/nanako"
+
+[workspace.dependencies]
+dora-rs = "0.1.0"
+dora-node-api = "0.3.8"
+pyo3 = { version = "0.23.4", features = [
+    "eyre",
+    "abi3-py37",
+    "multiple-pymethods",
+] }
